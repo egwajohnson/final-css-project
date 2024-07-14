@@ -112,6 +112,7 @@ main{
     }
     main .hero .choose{
         width: 100%; 
+        display: block;
         background-color: rgb(240, 238, 235);
         height: 70vh;
         /* opacity: 0.7; */
@@ -247,7 +248,7 @@ main{
     }
     
     .invit{
-        background-color: #31c17b;
+        background-image: linear-gradient(to right,hsl(139, 77%, 47%), hsl(244, 75%, 69%));
         color: #fff;
         padding: 0.5rem 0.5rem;
         border-radius: 20px;
@@ -267,7 +268,7 @@ main{
     }
 
     .copy{
-        color: rgb(102, 98, 98);g
+        color: rgb(102, 98, 98);
     }
 
      main .hero .next{
